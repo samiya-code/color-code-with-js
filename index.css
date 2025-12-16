@@ -1,0 +1,31 @@
+.box{
+    padding: 20px;
+    margin: 20px;
+    background-color: red;
+
+}
+.grid{
+    padding: 40px;
+    margin: 50px;
+    /* color:; */
+    grid-column:10px ;
+    background-color: white;
+    /* display: grid; */
+    /* display: inline; */
+    display: grid;
+    grid-template-columns: 1 fr 1 fr 1 fr;
+    grid-template-rows: 1 fr 1 fr 1 fr;
+
+}
+.sec1{
+  display: inline;
+    background-color: brown;
+}
+.sc2{
+    display: inline;
+    background-color: rgb(129, 70, 206);
+}
+.sec3{
+    display: inline;
+    background-color: blueviolet;
+}
